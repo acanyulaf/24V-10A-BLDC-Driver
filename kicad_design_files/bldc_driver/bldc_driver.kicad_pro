@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -112,8 +118,15 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -414,6 +427,14 @@
     [
       "69a23445-b679-4864-86c4-ba421583cbbb",
       ""
+    ],
+    [
+      "a34c853f-e642-4f0e-8c5f-3daab4c87166",
+      "esp32"
+    ],
+    [
+      "9d588a21-4668-48cf-81ee-f2d92e479825",
+      "gateDriver"
     ]
   ],
   "text_variables": {}
