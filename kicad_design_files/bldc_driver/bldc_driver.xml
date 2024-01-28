@@ -1,0 +1,2143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Business\Hardware\24V-10A-BLDC-Driver\24V-10A-BLDC-Driver\kicad_design_files\bldc_driver\bldc_driver.kicad_sch</source>
+    <date>Sun Jan 28 14:37:39 2024</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bldc_driver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>esp32.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>gateDriver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22uF_10V_X5R_±20%_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="22uF_10V_X5R_±20%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a82f956f-0508-4d4f-9fcf-1f788658723f</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF_25V_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10uF_25V_X5R_±10%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7097d39-217c-42d5-a62c-7d71f5a44408</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe64eaa1-847f-4769-b6b8-f192b9a5578d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1700a62-2069-450f-8476-ca2e93fd20d9</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>630861dc-2dac-4976-8d0a-478a1634e0bf</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>106bf483-f078-4c0c-ac52-a68e01499bed</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TBP01R1-508-02BE</value>
+      <footprint>bldcDriverFootprintLibrary:CUI_TBP01R1-508-02BE</footprint>
+      <fields>
+        <field name="MANUFACTURER">CUI</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="bldcDriverLibrary" part="TBP01R1-508-02BE" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="CUI"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23ba200f-a0e6-47d6-8915-21789756bf62</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>TBP01R1-508-03BE</value>
+      <footprint>bldcDriverFootprintLibrary:CUI_TBP01R1-508-03BE</footprint>
+      <fields>
+        <field name="MANUFACTURER">CUI</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="bldcDriverLibrary" part="TBP01R1-508-03BE" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="CUI"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0619dcd3-d9d0-41ab-a060-ae5b90c2bac3</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>530480210</value>
+      <footprint>bldcDriverFootprintLibrary:CON_530480210_MOL</footprint>
+      <datasheet>530480210</datasheet>
+      <libsource lib="bldcDriverLibrary" part="530480210" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a2f5c49-9189-4813-a8f3-14afc35d9dcb</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>530480510</value>
+      <footprint>bldcDriverFootprintLibrary:CON_530480510_MOL</footprint>
+      <datasheet>530480510</datasheet>
+      <libsource lib="bldcDriverLibrary" part="530480510" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>756ec7d7-1fa5-43da-ab38-7c430ed481e1</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>B1911PG--20D000514U1930</value>
+      <footprint>bldcDriverFootprintLibrary:LED_B1911PG--20D000514U1930_HVK</footprint>
+      <datasheet>B1911PG--20D000514U1930</datasheet>
+      <libsource lib="bldcDriverLibrary" part="B1911PG--20D000514U1930" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>951f4473-adc2-4efe-aef8-f232486f58ce</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMN6040SK3-13</value>
+      <footprint>bldcDriverFootprintLibrary:D-PAK_DMN6040SK3-13_DIO</footprint>
+      <datasheet>DMN6040SK3-13</datasheet>
+      <libsource lib="bldcDriverLibrary" part="DMN6040SK3-13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ecf728e-7e84-4b67-a832-16cb58f85177</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DMN6040SK3-13</value>
+      <footprint>bldcDriverFootprintLibrary:D-PAK_DMN6040SK3-13_DIO</footprint>
+      <datasheet>DMN6040SK3-13</datasheet>
+      <libsource lib="bldcDriverLibrary" part="DMN6040SK3-13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3c012d8-5b76-42c7-9b98-0158f83581ad</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>DMN6040SK3-13</value>
+      <footprint>bldcDriverFootprintLibrary:D-PAK_DMN6040SK3-13_DIO</footprint>
+      <datasheet>DMN6040SK3-13</datasheet>
+      <libsource lib="bldcDriverLibrary" part="DMN6040SK3-13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3ce6787-f633-4143-b22e-68797e7b10bf</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>DMN6040SK3-13</value>
+      <footprint>bldcDriverFootprintLibrary:D-PAK_DMN6040SK3-13_DIO</footprint>
+      <datasheet>DMN6040SK3-13</datasheet>
+      <libsource lib="bldcDriverLibrary" part="DMN6040SK3-13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f76af1d-e25d-4b55-ba28-8df48b44feb7</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>DMN6040SK3-13</value>
+      <footprint>bldcDriverFootprintLibrary:D-PAK_DMN6040SK3-13_DIO</footprint>
+      <datasheet>DMN6040SK3-13</datasheet>
+      <libsource lib="bldcDriverLibrary" part="DMN6040SK3-13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0528159b-171b-4814-8fbd-424a49af9ff9</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>DMN6040SK3-13</value>
+      <footprint>bldcDriverFootprintLibrary:D-PAK_DMN6040SK3-13_DIO</footprint>
+      <datasheet>DMN6040SK3-13</datasheet>
+      <libsource lib="bldcDriverLibrary" part="DMN6040SK3-13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9280bad1-e9ff-40cf-bdde-8958bd6789b3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7kΩ_±20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="4.7kΩ_±20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe4fbac5-0de1-4510-bf91-0d38e62da1b4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10kΩ_±20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10kΩ_±20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5a5649c-fbf2-4ba0-b0a7-c31f6efe0d4f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10kΩ_±20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10kΩ_±20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c19845c3-6cb1-4ef5-ad86-c317f52b8cdf</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10mΩ_2512</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <libsource lib="bldcDriverLibrary" part="10mΩ_±1%_5W_2512" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f04574c-11b9-4ffd-b6f9-d212fb11b8e4</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10mΩ_2512</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <libsource lib="bldcDriverLibrary" part="10mΩ_±1%_5W_2512" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64e7c375-71fc-4074-a4e6-37c076813c47</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10mΩ_2512</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <libsource lib="bldcDriverLibrary" part="10mΩ_±1%_5W_2512" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>063a14ef-fafe-4aec-83a2-bd954ceacb19</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AZ1117ID-3.3TRG1</value>
+      <footprint>bldcDriverFootprintLibrary:TO252-2_AZ1117ID-3.3TRG1_DIO</footprint>
+      <datasheet>AZ1117ID-3.3TRG1</datasheet>
+      <libsource lib="bldcDriverLibrary" part="AZ1117ID-3.3TRG1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bldc_driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5f27444-c781-4fb8-a778-c3885faf01bd</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF_16V_0402</value>
+      <footprint>bldcDriverFootprintLibrary:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="100nF_16V_X7R_±20%_0402" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>bbd6003a-b50d-4239-81ce-838f8c345dbc</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>47uF_10V_1206</value>
+      <footprint>bldcDriverFootprintLibrary:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="47uF_10V_X5R_±20%_1206" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>dabde48c-7e6e-4278-b935-7a65e9fff00e</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>47uF_10V_1206</value>
+      <footprint>bldcDriverFootprintLibrary:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="47uF_10V_X5R_±20%_1206" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>45996134-8f2b-4140-af97-f8a76f8fd0be</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF_6.3V_0402</value>
+      <footprint>bldcDriverFootprintLibrary:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10uF_6.3V_X5R_±20%_0402" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>33c1a4e9-683c-46cc-a27e-34ad18293ed6</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uF_25V_0402</value>
+      <footprint>bldcDriverFootprintLibrary:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="1uF_25V_X5R_±10%_0402" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>f901e4f0-aae3-4d3b-8fe8-9e72f5b9a709</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF_16V_0402</value>
+      <footprint>bldcDriverFootprintLibrary:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="100nF_16V_X7R_±20%_0402" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>66c615f2-eb51-418e-a553-499cc59a1c31</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>22uF_10V_X5R_±20%_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="22uF_10V_X5R_±20%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>eaabe2bc-4b89-4a83-949d-279598f50e95</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10uF_25V_X5R_±10%_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10uF_25V_X5R_±10%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>23179666-9b07-429c-88c4-3db65e13c419</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>USB3130-XX-X_REVD</value>
+      <footprint>bldcDriverFootprintLibrary:GCT_USB3130-XX-X_REVD</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/USB3130-30-A/Global+Connector+Technology/view-part/?ref=eda</field>
+        <field name="Description">
+USB - micro B USB 2.0 Receptacle Connector 5 Position Through Hole
+</field>
+        <field name="MANUFACTURER">GCT</field>
+        <field name="MF">Global Connector Technology</field>
+        <field name="MP">USB3130-30-A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/USB3130-30-A/Global+Connector+Technology/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="bldcDriverLibrary" part="USB3130-XX-X_REVD" description=""/>
+      <property name="MF" value="Global Connector Technology"/>
+      <property name="Description" value="&#xA;USB - micro B USB 2.0 Receptacle Connector 5 Position Through Hole&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/USB3130-30-A/Global+Connector+Technology/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/USB3130-30-A/Global+Connector+Technology/view-part/?ref=snap"/>
+      <property name="MP" value="USB3130-30-A"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="GCT"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>3c0ade35-c545-4af3-b947-8b18176151bd</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>450mΩ_±25%_0603</value>
+      <footprint>bldcDriverFootprintLibrary:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="450mΩ_±25%_600Ω@100MHz_0603_Ferrite" description="Inductor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>1f4d95dd-dde6-4fdf-a7a1-261a243871ff</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>600Ω_200mA_0603</value>
+      <footprint>bldcDriverFootprintLibrary:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="450mΩ_±25%_600Ω@100MHz_0603_Ferrite" description="Inductor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>884da16d-dfac-449f-8728-628fa5023a70</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>150060BS55040</value>
+      <footprint>bldcDriverFootprintLibrary:LED_150060B_WRE</footprint>
+      <datasheet>150060BS55040</datasheet>
+      <libsource lib="bldcDriverLibrary" part="150060BS55040" description=""/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>2ee8ed62-8da5-4d8e-a51e-02b8a29ba46b</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>SS8050-G</value>
+      <footprint>bldcDriverFootprintLibrary:TRANS_SS8050-G</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SS8050-G/Comchip+Technology/view-part/?ref=eda</field>
+        <field name="Description">
+Bipolar (BJT) Transistor NPN 25 V 1.5 A 100MHz 300 mW Surface Mount SOT-23-3
+</field>
+        <field name="MANUFACTURER">Comchip</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.05 mm</field>
+        <field name="MF">Comchip Technology</field>
+        <field name="MP">SS8050-G</field>
+        <field name="PARTREV">A</field>
+        <field name="Package">TO-236 Comchip</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=809142&amp;manufacturer=Comchip Technology&amp;part_name=SS8050-G&amp;search_term=ss805</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SS8050-G/Comchip+Technology/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="bldcDriverLibrary" part="SS8050-G" description=""/>
+      <property name="MF" value="Comchip Technology"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.05 mm"/>
+      <property name="Package" value="TO-236 Comchip"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SS8050-G/Comchip+Technology/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SS8050-G/Comchip+Technology/view-part/?ref=snap"/>
+      <property name="MP" value="SS8050-G"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=809142&amp;manufacturer=Comchip Technology&amp;part_name=SS8050-G&amp;search_term=ss805"/>
+      <property name="Description" value="&#xA;Bipolar (BJT) Transistor NPN 25 V 1.5 A 100MHz 300 mW Surface Mount SOT-23-3&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Comchip"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>2ded8b79-222a-4429-a2c8-121a79a0c609</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>SS8050-G</value>
+      <footprint>bldcDriverFootprintLibrary:TRANS_SS8050-G</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SS8050-G/Comchip+Technology/view-part/?ref=eda</field>
+        <field name="Description">
+Bipolar (BJT) Transistor NPN 25 V 1.5 A 100MHz 300 mW Surface Mount SOT-23-3
+</field>
+        <field name="MANUFACTURER">Comchip</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.05 mm</field>
+        <field name="MF">Comchip Technology</field>
+        <field name="MP">SS8050-G</field>
+        <field name="PARTREV">A</field>
+        <field name="Package">TO-236 Comchip</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=809142&amp;manufacturer=Comchip Technology&amp;part_name=SS8050-G&amp;search_term=ss805</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SS8050-G/Comchip+Technology/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="bldcDriverLibrary" part="SS8050-G" description=""/>
+      <property name="MF" value="Comchip Technology"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.05 mm"/>
+      <property name="Package" value="TO-236 Comchip"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SS8050-G/Comchip+Technology/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SS8050-G/Comchip+Technology/view-part/?ref=snap"/>
+      <property name="MP" value="SS8050-G"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=809142&amp;manufacturer=Comchip Technology&amp;part_name=SS8050-G&amp;search_term=ss805"/>
+      <property name="Description" value="&#xA;Bipolar (BJT) Transistor NPN 25 V 1.5 A 100MHz 300 mW Surface Mount SOT-23-3&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Comchip"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>befe37dc-ed3e-4414-8355-5a521c3e3319</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10kΩ_20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10kΩ_20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>a003a04d-1f04-411f-8923-f874603c78d5</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10kΩ_20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10kΩ_20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>33280cae-15fc-4f96-90e2-844bd54ed580</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10kΩ_±20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10kΩ_±20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>4f855812-bf17-441c-b7fc-d93f145665ce</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4.7kΩ_±20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="4.7kΩ_±20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>71008a90-a12f-48d3-a673-3d93e8061e0e</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10kΩ_±20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10kΩ_±20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>5663aab7-b02b-40f0-9250-ec04be0d36b7</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SMF05CT1G</value>
+      <footprint>bldcDriverFootprintLibrary:SOT65P210X110-6N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SMF05CT1G/Onsemi/view-part/?ref=eda</field>
+        <field name="DESCRIPTION">SMF05C Series 7.2 V 100 W 5-Line Transient Voltage Suppressor Array - SC-88</field>
+        <field name="Description">
+12.5V Clamp 8A (8/20µs) Ipp Tvs Diode Surface Mount SC-88/SC70-6/SOT-363
+</field>
+        <field name="MANUFACTURER">ON Semiconductor</field>
+        <field name="MF">ON Semiconductor</field>
+        <field name="MP">SMF05CT1G</field>
+        <field name="PACKAGE">SOT-363 ON Semiconductor</field>
+        <field name="PRICE">None</field>
+        <field name="Package">SC-88-6 ON Semiconductor</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=266365&amp;manufacturer=ON Semiconductor&amp;part_name=SMF05CT1G&amp;search_term=smf05ct1g</field>
+        <field name="STANDARD">IPC7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SMF05CT1G/Onsemi/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="bldcDriverLibrary" part="SMF05CT1G" description=""/>
+      <property name="MF" value="ON Semiconductor"/>
+      <property name="DESCRIPTION" value="SMF05C Series 7.2 V 100 W 5-Line Transient Voltage Suppressor Array - SC-88"/>
+      <property name="PACKAGE" value="SOT-363 ON Semiconductor"/>
+      <property name="PRICE" value="None"/>
+      <property name="Package" value="SC-88-6 ON Semiconductor"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SMF05CT1G/Onsemi/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC7351B"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SMF05CT1G/Onsemi/view-part/?ref=snap"/>
+      <property name="MP" value="SMF05CT1G"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=266365&amp;manufacturer=ON Semiconductor&amp;part_name=SMF05CT1G&amp;search_term=smf05ct1g"/>
+      <property name="Description" value="&#xA;12.5V Clamp 8A (8/20µs) Ipp Tvs Diode Surface Mount SC-88/SC70-6/SOT-363&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Price" value="None"/>
+      <property name="MANUFACTURER" value="ON Semiconductor"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>9b73f5bd-03f4-4c5d-8145-96ad48e9ef12</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ESP32-WROOM-32U</value>
+      <footprint>bldcDriverFootprintLibrary:XCVR_ESP32-WROOM-32U</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-WROOM-32U/Espressif+Systems/view-part/?ref=eda</field>
+        <field name="Description">
+Bluetooth, WiFi 802.11b/g/n, Bluetooth v4.2 +EDR, Class 1, 2 and 3 Transceiver Module 2.4GHz ~ 2.5GHz Antenna Not Included, U.FL Surface Mount
+</field>
+        <field name="MANUFACTURER">Espressif Systems</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="MF">Espressif Systems</field>
+        <field name="MP">ESP32-WROOM-32U</field>
+        <field name="PARTREV">2.4</field>
+        <field name="Package">NON STANDARD-39 Espressif</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-WROOM-32U/Espressif+Systems/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="bldcDriverLibrary" part="ESP32-WROOM-32U" description=""/>
+      <property name="MF" value="Espressif Systems"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="3.25mm"/>
+      <property name="Package" value="NON STANDARD-39 Espressif"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/ESP32-WROOM-32U/Espressif+Systems/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="2.4"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/ESP32-WROOM-32U/Espressif+Systems/view-part/?ref=snap"/>
+      <property name="MP" value="ESP32-WROOM-32U"/>
+      <property name="Description" value="&#xA;Bluetooth, WiFi 802.11b/g/n, Bluetooth v4.2 +EDR, Class 1, 2 and 3 Transceiver Module 2.4GHz ~ 2.5GHz Antenna Not Included, U.FL Surface Mount&#xA;"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="Espressif Systems"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>91a6b40c-2e9e-427b-a851-419d832c5d51</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>AZ1117ID-3.3TRG1</value>
+      <footprint>bldcDriverFootprintLibrary:TO252-2_AZ1117ID-3.3TRG1_DIO</footprint>
+      <datasheet>AZ1117ID-3.3TRG1</datasheet>
+      <libsource lib="bldcDriverLibrary" part="AZ1117ID-3.3TRG1" description=""/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>82f6c593-3b7b-41a2-b599-2525069fd49e</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>INTERFACE-CP2102-GMR_QFN28_</value>
+      <footprint>bldcDriverFootprintLibrary:QFN28G_0.5-5X5MM</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/CP2102-GMR/Silicon+Labs/view-part/?ref=eda</field>
+        <field name="Description">
+USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)
+</field>
+        <field name="MF">Silicon Labs</field>
+        <field name="MP">CP2102-GMR</field>
+        <field name="MPN">CP2102-GMR</field>
+        <field name="Package">VFQFN-28 Silicon Labs</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=105743&amp;manufacturer=Silicon Labs&amp;part_name=CP2102-GMR&amp;search_term=cp2102-gmr</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/CP2102-GMR/Silicon+Labs/view-part/?ref=snap</field>
+        <field name="VALUE">CP2102-GMR-QFN28</field>
+      </fields>
+      <libsource lib="bldcDriverLibrary" part="INTERFACE-CP2102-GMR_QFN28_" description=""/>
+      <property name="MF" value="Silicon Labs"/>
+      <property name="Description" value="&#xA;USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)&#xA;"/>
+      <property name="Package" value="VFQFN-28 Silicon Labs"/>
+      <property name="MPN" value="CP2102-GMR"/>
+      <property name="Price" value="None"/>
+      <property name="VALUE" value="CP2102-GMR-QFN28"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/CP2102-GMR/Silicon+Labs/view-part/?ref=snap"/>
+      <property name="MP" value="CP2102-GMR"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=105743&amp;manufacturer=Silicon Labs&amp;part_name=CP2102-GMR&amp;search_term=cp2102-gmr"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/CP2102-GMR/Silicon+Labs/view-part/?ref=eda"/>
+      <property name="Sheetname" value="esp32"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/esp32/" tstamps="/a34c853f-e642-4f0e-8c5f-3daab4c87166/"/>
+      <tstamps>068f7a48-a6b8-4414-af52-9ccc45d8991e</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF_25V_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10uF_25V_X5R_±10%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>c2ecb1dd-4eb4-4f01-8642-1babfdfc36ec</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>4.7uF_25V_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="4.7uF_25V_X5R_±10%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>19a478a5-a605-4e78-bda9-51c43c95eab9</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF_16V_0402</value>
+      <footprint>bldcDriverFootprintLibrary:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="100nF_16V_X7R_±20%_0402" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>2861af35-171b-456f-95e9-09df0bb2328e</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>EEHAZS1H151B</value>
+      <footprint>bldcDriverFootprintLibrary:EEH-AZS1H151B</footprint>
+      <fields>
+        <field name="A_max">11.7</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/EEH-AZS1H151B/Panasonic/view-part/?ref=eda</field>
+        <field name="DESCRIPTION">ZS-A</field>
+        <field name="D_nom">10</field>
+        <field name="Description">
+Hybrid A-ZS/50V/150uF/125C/4000h/10 x 1
+</field>
+        <field name="MF">Panasonic Electronic Components</field>
+        <field name="MP">EEH-AZS1H151B</field>
+        <field name="PARTREV">30-SEP-20</field>
+        <field name="Package">RADIAL-2 Panasonic</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6223332&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEH-AZS1H151B&amp;search_term=eeh-azs1h151b</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/EEH-AZS1H151B/Panasonic/view-part/?ref=snap</field>
+        <field name="b_max">0.85</field>
+        <field name="b_nom">0.8</field>
+        <field name="e_nom">5</field>
+      </fields>
+      <libsource lib="bldcDriverLibrary" part="EEHAZS1H151B" description=""/>
+      <property name="MF" value="Panasonic Electronic Components"/>
+      <property name="b_max" value="0.85"/>
+      <property name="DESCRIPTION" value="ZS-A"/>
+      <property name="Package" value="RADIAL-2 Panasonic"/>
+      <property name="b_nom" value="0.8"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/EEH-AZS1H151B/Panasonic/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/EEH-AZS1H151B/Panasonic/view-part/?ref=snap"/>
+      <property name="PARTREV" value="30-SEP-20"/>
+      <property name="A_max" value="11.7"/>
+      <property name="MP" value="EEH-AZS1H151B"/>
+      <property name="D_nom" value="10"/>
+      <property name="e_nom" value="5"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6223332&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEH-AZS1H151B&amp;search_term=eeh-azs1h151b"/>
+      <property name="Description" value="&#xA;Hybrid A-ZS/50V/150uF/125C/4000h/10 x 1&#xA;"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>e057ea40-ca25-415f-8232-b2c4848a4d1f</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>470nF_100V_X7R_±10%_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="470nF_100V_X7R_±10%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>0dc811dc-a8a7-48b0-8cfa-be5f6d1d4bfe</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF_16V_0402</value>
+      <footprint>bldcDriverFootprintLibrary:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="100nF_16V_X7R_±20%_0402" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>cba2ae21-11e9-4601-b4cf-b414934ef2a5</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF_100V_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="100nF_100V_X7R_±10%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>d6dd072b-5edf-400b-b670-e88296513248</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF_100V_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="100nF_50V_X7R_±10%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>2c3e6abf-6115-4598-a207-1a0c04566b1b</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>470nF_25V_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="470nF_25V_X5R_±10%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>32232d02-59ff-4a92-a2bf-4013270d90d8</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>470nF_25V_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="470nF_25V_X5R_±10%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>699fb04c-d7a5-4c50-a6bf-f5af20b180fe</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>470nF_25V_0805</value>
+      <footprint>bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="470nF_25V_X5R_±10%_0805" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>71126c4e-a6d0-4c18-981b-491bcb948767</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>B1911PG--20D000514U1930</value>
+      <footprint>bldcDriverFootprintLibrary:LED_B1911PG--20D000514U1930_HVK</footprint>
+      <datasheet>B1911PG--20D000514U1930</datasheet>
+      <libsource lib="bldcDriverLibrary" part="B1911PG--20D000514U1930" description=""/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>d1b0d280-9148-4d7a-b4c9-a14a302c33ae</tstamps>
+    </comp>
+    <comp ref="LED4">
+      <value>B1911USD-20D000114U1930</value>
+      <footprint>LED_0603-1608_HVK</footprint>
+      <datasheet>B1911USD-20D000114U1930</datasheet>
+      <libsource lib="bldcDriverLibrary" part="B1911USD-20D000114U1930" description=""/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>faabb9e1-893d-487a-8b7b-edf3ccf509c2</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4.7kΩ_±20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="4.7kΩ_±20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>a169c97b-63b3-4cc7-8821-653fc4b8daf3</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7kΩ_±20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="4.7kΩ_±20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>a6cfef64-cebf-4420-b446-c86e6851d3f3</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10Ω_±20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10Ω_±20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>4137d7ae-6d78-46bb-850f-2668e9854f39</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10Ω_±20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10Ω_±20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>3bf58a99-2e4c-4987-92f5-c54b300bf1b3</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10Ω_±20%_1/4W_0402</value>
+      <footprint>bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="bldcDriverLibrary" part="10Ω_±20%_1{slash}4W_0402" description="Resistor"/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>e61f288d-8592-44e9-8bf0-1d700442229e</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TMC6200-TA-T</value>
+      <footprint>bldcDriverFootprintLibrary:eTQFP48_9x9_TRI</footprint>
+      <datasheet>TMC6200-TA-T</datasheet>
+      <libsource lib="bldcDriverLibrary" part="TMC6200-TA-T" description=""/>
+      <property name="Sheetname" value="gateDriver"/>
+      <property name="Sheetfile" value="gateDriver.kicad_sch"/>
+      <sheetpath names="/gateDriver/" tstamps="/9d588a21-4668-48cf-81ee-f2d92e479825/"/>
+      <tstamps>0170c518-c418-4060-9fca-9f06655e484b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="100nF_100V_X7R_±10%_0805">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_100V_X7R_±10%_0805</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="100nF_16V_X7R_±20%_0402">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_16V_X7R_±20%_0402</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="100nF_50V_X7R_±10%_0805">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_50V_X7R_±10%_0805</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="10kΩ_20%_1{slash}4W_0402">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10kΩ_20%_1{slash}4W_0402</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="10kΩ_±20%_1{slash}4W_0402">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10kΩ_±20%_1{slash}4W_0402</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="10mΩ_±1%_5W_2512">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10mΩ_±1%_5W_2512</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="10uF_25V_X5R_±10%_0805">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF_25V_X5R_±10%_0805</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="10uF_6.3V_X5R_±20%_0402">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF_6.3V_X5R_±20%_0402</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="10Ω_±20%_1{slash}4W_0402">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10Ω_±20%_1{slash}4W_0402</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="150060BS55040">
+      <docs>150060BS55040</docs>
+      <footprints>
+        <fp>LED_150060B_WRE</fp>
+        <fp>LED_150060B_WRE-M</fp>
+        <fp>LED_150060B_WRE-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150060BS55040</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:LED_150060B_WRE</field>
+        <field name="Datasheet">150060BS55040</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="1uF_25V_X5R_±10%_0402">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF_25V_X5R_±10%_0402</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="22uF_10V_X5R_±20%_0805">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF_10V_X5R_±20%_0805</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="4.7kΩ_±20%_1{slash}4W_0402">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4.7kΩ_±20%_1{slash}4W_0402</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="4.7uF_25V_X5R_±10%_0805">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7uF_25V_X5R_±10%_0805</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="450mΩ_±25%_600Ω@100MHz_0603_Ferrite">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">450mΩ_±25%_600Ω@100MHz_0603_Ferrite</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="470nF_100V_X7R_±10%_0805">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">470nF_100V_X7R_±10%_0805</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="470nF_25V_X5R_±10%_0805">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">470nF_25V_X5R_±10%_0805</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="47uF_10V_X5R_±20%_1206">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47uF_10V_X5R_±20%_1206</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="530480210">
+      <docs>530480210</docs>
+      <footprints>
+        <fp>CON_530480210_MOL</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">530480210</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:CON_530480210_MOL</field>
+        <field name="Datasheet">530480210</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="530480510">
+      <docs>530480510</docs>
+      <footprints>
+        <fp>CON_530480510_MOL</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">530480510</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:CON_530480510_MOL</field>
+        <field name="Datasheet">530480510</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="AZ1117ID-3.3TRG1">
+      <docs>AZ1117ID-3.3TRG1</docs>
+      <footprints>
+        <fp>TO252-2_AZ1117ID-3.3TRG1_DIO</fp>
+        <fp>TO252-2_AZ1117ID-3.3TRG1_DIO-M</fp>
+        <fp>TO252-2_AZ1117ID-3.3TRG1_DIO-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AZ1117ID-3.3TRG1</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:TO252-2_AZ1117ID-3.3TRG1_DIO</field>
+        <field name="Datasheet">AZ1117ID-3.3TRG1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ/GND" type="power_out"/>
+        <pin num="2" name="OUTPUT" type="output"/>
+        <pin num="3" name="INPUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="B1911PG--20D000514U1930">
+      <docs>B1911PG--20D000514U1930</docs>
+      <footprints>
+        <fp>LED_B1911PG--20D000514U1930_HVK</fp>
+        <fp>LED_B1911PG--20D000514U1930_HVK-M</fp>
+        <fp>LED_B1911PG--20D000514U1930_HVK-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">B1911PG--20D000514U1930</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:LED_B1911PG--20D000514U1930_HVK</field>
+        <field name="Datasheet">B1911PG--20D000514U1930</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="B1911USD-20D000114U1930">
+      <docs>B1911USD-20D000114U1930</docs>
+      <footprints>
+        <fp>LED_0603-1608_HVK</fp>
+        <fp>LED_0603-1608_HVK-M</fp>
+        <fp>LED_0603-1608_HVK-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">B1911USD-20D000114U1930</field>
+        <field name="Footprint">LED_0603-1608_HVK</field>
+        <field name="Datasheet">B1911USD-20D000114U1930</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="DMN6040SK3-13">
+      <docs>DMN6040SK3-13</docs>
+      <footprints>
+        <fp>D-PAK_DMN6040SK3-13_DIO</fp>
+        <fp>D-PAK_DMN6040SK3-13_DIO-M</fp>
+        <fp>D-PAK_DMN6040SK3-13_DIO-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMN6040SK3-13</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:D-PAK_DMN6040SK3-13_DIO</field>
+        <field name="Datasheet">DMN6040SK3-13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="unspecified"/>
+        <pin num="2" name="S" type="unspecified"/>
+        <pin num="3" name="D" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="EEHAZS1H151B">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EEHAZS1H151B</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:EEH-AZS1H151B</field>
+        <field name="MF">Panasonic Electronic Components</field>
+        <field name="b_max">0.85</field>
+        <field name="DESCRIPTION">ZS-A</field>
+        <field name="Package">RADIAL-2 Panasonic</field>
+        <field name="b_nom">0.8</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/EEH-AZS1H151B/Panasonic/view-part/?ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/EEH-AZS1H151B/Panasonic/view-part/?ref=snap</field>
+        <field name="PARTREV">30-SEP-20</field>
+        <field name="A_max">11.7</field>
+        <field name="MP">EEH-AZS1H151B</field>
+        <field name="D_nom">10</field>
+        <field name="e_nom">5</field>
+        <field name="Availability">In Stock</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6223332&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEH-AZS1H151B&amp;search_term=eeh-azs1h151b</field>
+        <field name="Description">
+Hybrid A-ZS/50V/150uF/125C/4000h/10 x 1
+</field>
+      </fields>
+      <pins>
+        <pin num="N" name="" type="passive"/>
+        <pin num="P" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="ESP32-WROOM-32U">
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32U</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:XCVR_ESP32-WROOM-32U</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf</field>
+        <field name="MF">Espressif Systems</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="Package">NON STANDARD-39 Espressif</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-WROOM-32U/Espressif+Systems/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">2.4</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-WROOM-32U/Espressif+Systems/view-part/?ref=snap</field>
+        <field name="MP">ESP32-WROOM-32U</field>
+        <field name="Description">
+Bluetooth, WiFi 802.11b/g/n, Bluetooth v4.2 +EDR, Class 1, 2 and 3 Transceiver Module 2.4GHz ~ 2.5GHz Antenna Not Included, U.FL Surface Mount
+</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">Espressif Systems</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="IO36/SENSOR_VP" type="input"/>
+        <pin num="5" name="IO39/SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="bidirectional"/>
+        <pin num="9" name="IO33" type="bidirectional"/>
+        <pin num="10" name="IO25" type="bidirectional"/>
+        <pin num="11" name="IO26" type="bidirectional"/>
+        <pin num="12" name="IO27" type="bidirectional"/>
+        <pin num="13" name="IO14" type="bidirectional"/>
+        <pin num="14" name="IO12" type="bidirectional"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="IO13" type="bidirectional"/>
+        <pin num="17" name="SHD/SD2" type="bidirectional"/>
+        <pin num="18" name="SWP/SD3" type="bidirectional"/>
+        <pin num="19" name="SCS/CMD" type="bidirectional"/>
+        <pin num="20" name="SCL/CLK" type="bidirectional"/>
+        <pin num="21" name="SDO/SD0" type="bidirectional"/>
+        <pin num="22" name="SD1/SD1" type="bidirectional"/>
+        <pin num="23" name="IO15" type="bidirectional"/>
+        <pin num="24" name="IO2" type="bidirectional"/>
+        <pin num="25" name="IO0" type="bidirectional"/>
+        <pin num="26" name="IO4" type="bidirectional"/>
+        <pin num="27" name="IO16" type="bidirectional"/>
+        <pin num="28" name="IO17" type="bidirectional"/>
+        <pin num="29" name="IO5" type="bidirectional"/>
+        <pin num="30" name="IO18" type="bidirectional"/>
+        <pin num="31" name="IO19" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="IO21" type="bidirectional"/>
+        <pin num="34" name="RXD0/IO3" type="bidirectional"/>
+        <pin num="35" name="TXD0/IO1" type="bidirectional"/>
+        <pin num="36" name="IO22" type="bidirectional"/>
+        <pin num="37" name="IO23" type="bidirectional"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39_1" name="GND" type="power_in"/>
+        <pin num="39_2" name="GND" type="power_in"/>
+        <pin num="39_3" name="GND" type="power_in"/>
+        <pin num="39_4" name="GND" type="power_in"/>
+        <pin num="39_5" name="GND" type="power_in"/>
+        <pin num="39_6" name="GND" type="power_in"/>
+        <pin num="39_7" name="GND" type="power_in"/>
+        <pin num="39_8" name="GND" type="power_in"/>
+        <pin num="39_9" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="INTERFACE-CP2102-GMR_QFN28_">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INTERFACE-CP2102-GMR_QFN28_</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:QFN28G_0.5-5X5MM</field>
+        <field name="MF">Silicon Labs</field>
+        <field name="Description">
+USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)
+</field>
+        <field name="Package">VFQFN-28 Silicon Labs</field>
+        <field name="MPN">CP2102-GMR</field>
+        <field name="Price">None</field>
+        <field name="VALUE">CP2102-GMR-QFN28</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/CP2102-GMR/Silicon+Labs/view-part/?ref=snap</field>
+        <field name="MP">CP2102-GMR</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=105743&amp;manufacturer=Silicon Labs&amp;part_name=CP2102-GMR&amp;search_term=cp2102-gmr</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/CP2102-GMR/Silicon+Labs/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DCD" type="bidirectional"/>
+        <pin num="2" name="RI" type="bidirectional"/>
+        <pin num="3" name="GND" type="bidirectional"/>
+        <pin num="4" name="D+" type="bidirectional"/>
+        <pin num="5" name="D-" type="bidirectional"/>
+        <pin num="6" name="VDD" type="bidirectional"/>
+        <pin num="7" name="REGIN" type="bidirectional"/>
+        <pin num="8" name="VBUS" type="bidirectional"/>
+        <pin num="9" name="~{RST}" type="bidirectional"/>
+        <pin num="10" name="NC" type="bidirectional"/>
+        <pin num="11" name="~{SUSPEND}" type="bidirectional"/>
+        <pin num="12" name="SUSPEND" type="bidirectional"/>
+        <pin num="13" name="NC@1" type="bidirectional"/>
+        <pin num="14" name="NC@2" type="bidirectional"/>
+        <pin num="15" name="NC@3" type="bidirectional"/>
+        <pin num="16" name="NC@4" type="bidirectional"/>
+        <pin num="17" name="NC@5" type="bidirectional"/>
+        <pin num="18" name="NC/VPP" type="bidirectional"/>
+        <pin num="19" name="NC@6" type="bidirectional"/>
+        <pin num="20" name="NC@7" type="bidirectional"/>
+        <pin num="21" name="NC@8" type="bidirectional"/>
+        <pin num="22" name="NC@9" type="bidirectional"/>
+        <pin num="23" name="CTS" type="bidirectional"/>
+        <pin num="24" name="RTS" type="bidirectional"/>
+        <pin num="25" name="RXD" type="bidirectional"/>
+        <pin num="26" name="TXD" type="bidirectional"/>
+        <pin num="27" name="DSR" type="bidirectional"/>
+        <pin num="28" name="DTR" type="bidirectional"/>
+        <pin num="29" name="GND@1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="SMF05CT1G">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SMF05CT1G</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:SOT65P210X110-6N</field>
+        <field name="MF">ON Semiconductor</field>
+        <field name="DESCRIPTION">SMF05C Series 7.2 V 100 W 5-Line Transient Voltage Suppressor Array - SC-88</field>
+        <field name="PACKAGE">SOT-363 ON Semiconductor</field>
+        <field name="PRICE">None</field>
+        <field name="Package">SC-88-6 ON Semiconductor</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SMF05CT1G/Onsemi/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SMF05CT1G/Onsemi/view-part/?ref=snap</field>
+        <field name="MP">SMF05CT1G</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=266365&amp;manufacturer=ON Semiconductor&amp;part_name=SMF05CT1G&amp;search_term=smf05ct1g</field>
+        <field name="Description">
+12.5V Clamp 8A (8/20µs) Ipp Tvs Diode Surface Mount SC-88/SC70-6/SOT-363
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="Price">None</field>
+        <field name="MANUFACTURER">ON Semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="SS8050-G">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SS8050-G</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:TRANS_SS8050-G</field>
+        <field name="MF">Comchip Technology</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.05 mm</field>
+        <field name="Package">TO-236 Comchip</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SS8050-G/Comchip+Technology/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">A</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SS8050-G/Comchip+Technology/view-part/?ref=snap</field>
+        <field name="MP">SS8050-G</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=809142&amp;manufacturer=Comchip Technology&amp;part_name=SS8050-G&amp;search_term=ss805</field>
+        <field name="Description">
+Bipolar (BJT) Transistor NPN 25 V 1.5 A 100MHz 300 mW Surface Mount SOT-23-3
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Comchip</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="TBP01R1-508-02BE">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TBP01R1-508-02BE</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:CUI_TBP01R1-508-02BE</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">CUI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="TBP01R1-508-03BE">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TBP01R1-508-03BE</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:CUI_TBP01R1-508-03BE</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">CUI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="TMC6200-TA-T">
+      <docs>TMC6200-TA-T</docs>
+      <footprints>
+        <fp>eTQFP48_9x9_TRI</fp>
+        <fp>eTQFP48_9x9_TRI-M</fp>
+        <fp>eTQFP48_9x9_TRI-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMC6200-TA-T</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:eTQFP48_9x9_TRI</field>
+        <field name="Datasheet">TMC6200-TA-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CU" type="unspecified"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="LSW" type="output"/>
+        <pin num="4" name="LSV" type="output"/>
+        <pin num="5" name="LSU" type="output"/>
+        <pin num="6" name="12VOUT" type="output"/>
+        <pin num="7" name="5VOUT" type="output"/>
+        <pin num="8" name="GNDA" type="power_in"/>
+        <pin num="9" name="CURU" type="output"/>
+        <pin num="10" name="CURV" type="output"/>
+        <pin num="11" name="CURW" type="output"/>
+        <pin num="12" name="VOFS/TEST" type="input"/>
+        <pin num="13" name="CSN_IDRV0" type="input"/>
+        <pin num="14" name="SCK_IDRV1" type="input"/>
+        <pin num="15" name="SDI_AMPLX10" type="input"/>
+        <pin num="16" name="SDO_SINGLE" type="bidirectional"/>
+        <pin num="17" name="UH" type="input"/>
+        <pin num="18" name="UL" type="input"/>
+        <pin num="19" name="VCC_IO" type="power_in"/>
+        <pin num="20" name="VH" type="input"/>
+        <pin num="21" name="VL" type="input"/>
+        <pin num="22" name="WH" type="input"/>
+        <pin num="23" name="WL" type="input"/>
+        <pin num="24" name="CLK" type="input"/>
+        <pin num="25" name="SPE" type="input"/>
+        <pin num="26" name="FAULT" type="output"/>
+        <pin num="27" name="DRV_EN" type="input"/>
+        <pin num="28" name="NC" type="no_connect"/>
+        <pin num="29" name="VSA" type="power_in"/>
+        <pin num="30" name="CPO" type="output"/>
+        <pin num="31" name="NC" type="no_connect"/>
+        <pin num="32" name="CPI" type="input"/>
+        <pin num="33" name="VS" type="power_in"/>
+        <pin num="34" name="VCP" type="unspecified"/>
+        <pin num="35" name="NC" type="no_connect"/>
+        <pin num="36" name="CW" type="unspecified"/>
+        <pin num="37" name="HSW" type="output"/>
+        <pin num="38" name="W" type="unspecified"/>
+        <pin num="39" name="WSENSE" type="unspecified"/>
+        <pin num="40" name="NC" type="no_connect"/>
+        <pin num="41" name="VSENSE" type="unspecified"/>
+        <pin num="42" name="V" type="unspecified"/>
+        <pin num="43" name="HSV" type="output"/>
+        <pin num="44" name="CV" type="unspecified"/>
+        <pin num="45" name="NC" type="no_connect"/>
+        <pin num="46" name="USENSE" type="unspecified"/>
+        <pin num="47" name="U" type="unspecified"/>
+        <pin num="48" name="HSU" type="output"/>
+        <pin num="EPAD" name="EPAD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="bldcDriverLibrary" part="USB3130-XX-X_REVD">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB3130-XX-X_REVD</field>
+        <field name="Footprint">bldcDriverFootprintLibrary:GCT_USB3130-XX-X_REVD</field>
+        <field name="MF">Global Connector Technology</field>
+        <field name="Description">
+USB - micro B USB 2.0 Receptacle Connector 5 Position Through Hole
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/USB3130-30-A/Global+Connector+Technology/view-part/?ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/USB3130-30-A/Global+Connector+Technology/view-part/?ref=snap</field>
+        <field name="MP">USB3130-30-A</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">GCT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SHIELD" type="passive"/>
+        <pin num="7" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="bldcDriverLibrary">
+      <uri>D:\Business\Hardware\24V-10A-BLDC-Driver\24V-10A-BLDC-Driver\kicad_design_files\bldc_driver/lib/bldcDriverLibrary.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="LED1" pin="2" pintype="unspecified"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OUTPUT" pintype="output"/>
+      <node ref="U4" pin="2" pinfunction="OUTPUT" pintype="output"/>
+      <node ref="U6" pin="19" pinfunction="VCC_IO" pintype="power_in"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="INPUT" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="12VOUT" pintype="output"/>
+    </net>
+    <net code="3" name="/CLK">
+      <node ref="U3" pin="14" pinfunction="IO12" pintype="bidirectional"/>
+      <node ref="U6" pin="14" pinfunction="SCK_IDRV1" pintype="input"/>
+    </net>
+    <net code="4" name="/CS">
+      <node ref="U3" pin="16" pinfunction="IO13" pintype="bidirectional"/>
+      <node ref="U6" pin="13" pinfunction="CSN_IDRV0" pintype="input"/>
+    </net>
+    <net code="5" name="/CURU">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="IO27" pintype="bidirectional"/>
+      <node ref="U6" pin="9" pinfunction="CURU" pintype="output"/>
+    </net>
+    <net code="6" name="/CURV">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="IO32" pintype="bidirectional"/>
+      <node ref="U6" pin="10" pinfunction="CURV" pintype="output"/>
+    </net>
+    <net code="7" name="/CURW">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="IO33" pintype="bidirectional"/>
+      <node ref="U6" pin="11" pinfunction="CURW" pintype="output"/>
+    </net>
+    <net code="8" name="/DRV_EN">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U3" pin="37" pinfunction="IO23" pintype="bidirectional"/>
+      <node ref="U6" pin="27" pinfunction="DRV_EN" pintype="input"/>
+    </net>
+    <net code="9" name="/FAULT">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="IO25" pintype="bidirectional"/>
+      <node ref="U6" pin="26" pinfunction="FAULT" pintype="output"/>
+    </net>
+    <net code="10" name="/HALL_U">
+      <node ref="J4" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U3" pin="6" pinfunction="IO34" pintype="input"/>
+    </net>
+    <net code="11" name="/HALL_V">
+      <node ref="J4" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U3" pin="7" pinfunction="IO35" pintype="input"/>
+    </net>
+    <net code="12" name="/HALL_W">
+      <node ref="J4" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="U3" pin="29" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/HU">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U6" pin="48" pinfunction="HSU" pintype="output"/>
+    </net>
+    <net code="14" name="/HV">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U6" pin="43" pinfunction="HSV" pintype="output"/>
+    </net>
+    <net code="15" name="/HW">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U6" pin="37" pinfunction="HSW" pintype="output"/>
+    </net>
+    <net code="16" name="/I2CSCL">
+      <node ref="J3" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="26" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/I2CSDA">
+      <node ref="J3" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="24" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/LU">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U6" pin="5" pinfunction="LSU" pintype="output"/>
+    </net>
+    <net code="19" name="/LV">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U6" pin="4" pinfunction="LSV" pintype="output"/>
+    </net>
+    <net code="20" name="/LW">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U6" pin="3" pinfunction="LSW" pintype="output"/>
+    </net>
+    <net code="21" name="/PHASE_U">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/PHASE_V">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/PHASE_W">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="/SPE">
+      <node ref="U3" pin="11" pinfunction="IO26" pintype="bidirectional"/>
+      <node ref="U6" pin="25" pinfunction="SPE" pintype="input"/>
+    </net>
+    <net code="25" name="/TMC_DIN">
+      <node ref="U3" pin="23" pinfunction="IO15" pintype="bidirectional"/>
+      <node ref="U6" pin="15" pinfunction="SDI_AMPLX10" pintype="input"/>
+    </net>
+    <net code="26" name="/TMC_DOUT">
+      <node ref="U3" pin="13" pinfunction="IO14" pintype="bidirectional"/>
+      <node ref="U6" pin="16" pinfunction="SDO_SINGLE" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/U">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U6" pin="47" pinfunction="U" pintype="unspecified"/>
+    </net>
+    <net code="28" name="/UH">
+      <node ref="U3" pin="28" pinfunction="IO17" pintype="bidirectional"/>
+      <node ref="U6" pin="17" pinfunction="UH" pintype="input"/>
+    </net>
+    <net code="29" name="/UL">
+      <node ref="U3" pin="33" pinfunction="IO21" pintype="bidirectional"/>
+      <node ref="U6" pin="18" pinfunction="UL" pintype="input"/>
+    </net>
+    <net code="30" name="/V">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U6" pin="42" pinfunction="V" pintype="unspecified"/>
+    </net>
+    <net code="31" name="/VH">
+      <node ref="U6" pin="20" pinfunction="VH" pintype="input"/>
+    </net>
+    <net code="32" name="/VIN">
+      <node ref="C14" pin="P" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="U6" pin="33" pinfunction="VS" pintype="power_in"/>
+    </net>
+    <net code="33" name="/VL">
+      <node ref="U3" pin="36" pinfunction="IO22" pintype="bidirectional"/>
+      <node ref="U6" pin="21" pinfunction="VL" pintype="input"/>
+    </net>
+    <net code="34" name="/W">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="unspecified"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U6" pin="38" pinfunction="W" pintype="unspecified"/>
+    </net>
+    <net code="35" name="/WH">
+      <node ref="U6" pin="22" pinfunction="WH" pintype="input"/>
+    </net>
+    <net code="36" name="/WL">
+      <node ref="U3" pin="31" pinfunction="IO19" pintype="bidirectional"/>
+      <node ref="U6" pin="23" pinfunction="WL" pintype="input"/>
+    </net>
+    <net code="37" name="/esp32/D+">
+      <node ref="J5" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/esp32/D-">
+      <node ref="J5" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/esp32/DTR">
+      <node ref="Q7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U5" pin="28" pinfunction="DTR" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/esp32/ESP_EN">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="Q8" pin="3" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="41" name="/esp32/ESP_IO0">
+      <node ref="Q7" pin="3" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/esp32/RTS">
+      <node ref="Q8" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="24" pinfunction="RTS" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/esp32/RXD">
+      <node ref="U3" pin="35" pinfunction="TXD0/IO1" pintype="bidirectional"/>
+      <node ref="U5" pin="25" pinfunction="RXD" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/esp32/TXD">
+      <node ref="U3" pin="34" pinfunction="RXD0/IO3" pintype="bidirectional"/>
+      <node ref="U5" pin="26" pinfunction="TXD" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/esp32/VBUS">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="INPUT" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="VBUS" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/esp32/VH">
+      <node ref="U3" pin="30" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/esp32/WH">
+      <node ref="U3" pin="27" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/gateDriver/CU">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="CU" pintype="unspecified"/>
+    </net>
+    <net code="49" name="/gateDriver/CV">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="U6" pin="44" pinfunction="CV" pintype="unspecified"/>
+    </net>
+    <net code="50" name="/gateDriver/CW">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="U6" pin="36" pinfunction="CW" pintype="unspecified"/>
+    </net>
+    <net code="51" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="N" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="J5" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J5" pin="6" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="LED2" pin="1" pintype="unspecified"/>
+      <node ref="LED3" pin="1" pintype="unspecified"/>
+      <node ref="LED4" pin="1" pintype="unspecified"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ADJ/GND" pintype="power_out"/>
+      <node ref="U2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="39_1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="39_2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="39_3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="39_4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="39_5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="39_6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="39_7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="39_8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="39_9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="ADJ/GND" pintype="power_out"/>
+      <node ref="U5" pin="29" pinfunction="GND@1" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U6" pin="24" pinfunction="CLK" pintype="input"/>
+      <node ref="U6" pin="8" pinfunction="GNDA" pintype="power_in"/>
+      <node ref="U6" pin="EPAD" pinfunction="EPAD" pintype="unspecified"/>
+    </net>
+    <net code="52" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="53" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="VDD" pintype="bidirectional"/>
+      <node ref="U5" pin="7" pinfunction="REGIN" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="5VOUT" pintype="output"/>
+    </net>
+    <net code="55" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="U6" pin="34" pinfunction="VCP" pintype="unspecified"/>
+    </net>
+    <net code="56" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="U6" pin="32" pinfunction="CPI" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="U6" pin="30" pinfunction="CPO" pintype="output"/>
+    </net>
+    <net code="58" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="U6" pin="29" pinfunction="VSA" pintype="power_in"/>
+    </net>
+    <net code="59" name="Net-(LED1-Pad1)">
+      <node ref="LED1" pin="1" pintype="unspecified"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(LED2-Pad2)">
+      <node ref="LED2" pin="2" pintype="unspecified"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(LED3-Pad2)">
+      <node ref="LED3" pin="2" pintype="unspecified"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(LED4-Pad2)">
+      <node ref="LED4" pin="2" pintype="unspecified"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(Q8-Pad1)">
+      <node ref="Q8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U6" pin="46" pinfunction="USENSE" pintype="unspecified"/>
+    </net>
+    <net code="66" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U6" pin="41" pinfunction="VSENSE" pintype="unspecified"/>
+    </net>
+    <net code="67" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U6" pin="39" pinfunction="WSENSE" pintype="unspecified"/>
+    </net>
+    <net code="68" name="unconnected-(J5-Pad4)">
+      <node ref="J5" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="IO36/SENSOR_VP" pintype="input+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="IO39/SENSOR_VN" pintype="input+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U3-Pad17)">
+      <node ref="U3" pin="17" pinfunction="SHD/SD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U3-Pad18)">
+      <node ref="U3" pin="18" pinfunction="SWP/SD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U3-Pad19)">
+      <node ref="U3" pin="19" pinfunction="SCS/CMD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U3-Pad20)">
+      <node ref="U3" pin="20" pinfunction="SCL/CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U3-Pad21)">
+      <node ref="U3" pin="21" pinfunction="SDO/SD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U3-Pad22)">
+      <node ref="U3" pin="22" pinfunction="SD1/SD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U3-Pad32)">
+      <node ref="U3" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U5-Pad1)">
+      <node ref="U5" pin="1" pinfunction="DCD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U5-Pad2)">
+      <node ref="U5" pin="2" pinfunction="RI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U5-Pad9)">
+      <node ref="U5" pin="9" pinfunction="~{RST}" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U5-Pad10)">
+      <node ref="U5" pin="10" pinfunction="NC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U5-Pad11)">
+      <node ref="U5" pin="11" pinfunction="~{SUSPEND}" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U5-Pad12)">
+      <node ref="U5" pin="12" pinfunction="SUSPEND" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U5-Pad13)">
+      <node ref="U5" pin="13" pinfunction="NC@1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U5-Pad14)">
+      <node ref="U5" pin="14" pinfunction="NC@2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U5-Pad15)">
+      <node ref="U5" pin="15" pinfunction="NC@3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U5-Pad16)">
+      <node ref="U5" pin="16" pinfunction="NC@4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U5-Pad17)">
+      <node ref="U5" pin="17" pinfunction="NC@5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U5-Pad18)">
+      <node ref="U5" pin="18" pinfunction="NC/VPP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U5-Pad19)">
+      <node ref="U5" pin="19" pinfunction="NC@6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U5-Pad20)">
+      <node ref="U5" pin="20" pinfunction="NC@7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U5-Pad21)">
+      <node ref="U5" pin="21" pinfunction="NC@8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U5-Pad22)">
+      <node ref="U5" pin="22" pinfunction="NC@9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U5-Pad23)">
+      <node ref="U5" pin="23" pinfunction="CTS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U5-Pad27)">
+      <node ref="U5" pin="27" pinfunction="DSR" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U6-Pad2)">
+      <node ref="U6" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U6-Pad12)">
+      <node ref="U6" pin="12" pinfunction="VOFS/TEST" pintype="input+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U6-Pad28)">
+      <node ref="U6" pin="28" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U6-Pad31)">
+      <node ref="U6" pin="31" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U6-Pad35)">
+      <node ref="U6" pin="35" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U6-Pad40)">
+      <node ref="U6" pin="40" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U6-Pad45)">
+      <node ref="U6" pin="45" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

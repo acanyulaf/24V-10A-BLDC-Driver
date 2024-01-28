@@ -1889,7 +1889,7 @@
         ) (width 0.001) (fill yes))
     ) (tstamp f92fdb4e-f0cf-425f-92d7-8f8baedbeade))
   (model "${KIPRJMOD}/lib/USB3130-XX-X_REVD/USB3130-XX-X_REVD.step"
-    (offset (xyz 0 0 0))
+    (offset (xyz 0 0 1.27))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )
